@@ -10,4 +10,17 @@ body,html{
     width: 100%;
     height: 100%;
     background: yellow;
+    display: flex;
+    flex-direction: column;
+}
+.wrapper header{
+    height: 200px;
+    width: 100%;
+}
+.wrapper section{
+    flex:1;
+}
+.wrapper footer{
+    height: 60px;
+    width: 100%;
 }
