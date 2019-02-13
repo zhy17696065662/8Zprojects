@@ -1,0 +1,79 @@
+/* 薛汾start */
+*{
+    margin: 0;
+    padding: 0;
+}
+body,html{
+    width: 100%;
+    height: 100%;
+}
+.wrapper{
+    width: 100%;
+    height: 100%;
+    /* background: yellow; */
+    display: flex;
+    flex-direction: column;
+}
+.wrapper header{
+    height: 200px;
+    width: 100%;
+}
+.wrapper section{
+    flex:1;
+}
+.wrapper footer{
+    height: 60px;
+    width: 100%;
+}
+.cai{
+    width:100%;
+    height:auto;
+    overflow: hidden;
+}
+.cai p{
+    width:100%;
+    height:40px;
+    padding:0 10px;
+    
+}
+.cai-box{
+    width:100%;
+    height:auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.cai span{
+    width:28%;
+    height:60px;
+    background:pink;
+    display: inline-block;
+    margin-top:10px;
+}
+.guang{
+    width:100%;
+    height:auto;
+    overflow: hidden;
+    margin-top:10px;
+}
+.guang p{
+    width:100%;
+    height:40px;
+    padding:0 10px;
+    
+}
+.guang-box{
+    width:100%;
+    height:auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.guang span{
+    width:28%;
+    height:60px;
+    background:pink;
+    display: inline-block;
+    margin-top:10px;
+}
+/* 薛汾end */
