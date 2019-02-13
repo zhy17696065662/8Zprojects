@@ -1,13 +1,85 @@
 *{
     margin: 0;
     padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+@font-face{
+    src:url('./font/iconfont.ttf');
+    font-family: 'iconfont'
 }
 body,html{
     width: 100%;
     height: 100%;
 }
+@
 .wrapper{
     width: 100%;
     height: 100%;
-    background: yellow;
+    /* background: yellow; */
 }
+.wrapper  header {
+    width: 100%;
+    flex: 1;
+    position: relative;
+  }
+  
+  .wrapper  header .swiper-container {
+    width: 100%;
+    height: 200px;
+  }
+  
+  .wrapper header .swiper-wrapper, .wrap .header .swiper-slide, .wrap .header img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .wrapper header .Recommend {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 1%;
+    left: 50%;
+    margin-left: -50%;
+    z-index: 999;
+  }
+  
+  .wrapper header .Recommend li {
+    font-size: 20px;
+    color: #fff;
+    font-size: 20px;
+    padding-bottom: 0.26667rem;
+  }
+  
+  .wrapper header .Recommend li:first-of-type {
+    margin-right: 10px;
+    border-bottom: 2px solid #fff;
+  }
+  
+  .wrapper header .broadcast {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 15px 0;
+  }
+  
+  .wrapper header .broadcast li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .wrapper header .broadcast li span {
+    font-family: 'iconfont';
+    font-size: 20px;
+  }
+  
+  .wrapper header .broadcast li span:first-of-type {
+    display: block;
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  
