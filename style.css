@@ -1,6 +1,3 @@
-
-/* 薛汾start */
-
 *{
     margin:0;
     padding: 0;
@@ -24,11 +21,49 @@ body,html{
     display: flex;
     flex-direction: column;
 }
-
+.wrapper  header {
+    width: 100%;
+    flex: 1;
+    position: relative;
+  }
 .wrapper section{
     flex:1;
     overflow-y: auto;
 }
+.tuijian{
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.diwanggonglue{
+    width: 100%;
+    height: 100px;
+    background: #eee;
+    display: flex;
+    flex-direction: row;
+}
+.pro{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-items: center;
+}
+.diwanggonglue dt{
+    width: 30%;
+    height: 90px;
+    background: #cccccc;
+    line-height: 100px;
+    justify-items: center;
+}
+
+
+
+
 
 .cai{
     width:100%;
@@ -83,11 +118,7 @@ body,html{
 }
 /* 薛汾end */
 
-.wrapper  header {
-    width: 100%;
-    flex: 1;
-    position: relative;
-  }
+
   
   .wrapper  header .swiper-container {
     width: 100%;
