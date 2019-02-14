@@ -1,18 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./swiper/swiper-4.1.6.min.css">
 </head>
+
 <body>
     <!-- 上中下结构，自行选择 -->
     <div class="wrapper">
         <!--头部  start-->
         <header>
-
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="./img/1.jfif" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./img/2.jfif" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./img/16.jfif" alt="">
+                    </div>
+                </div>
+                <ul class="Recommend">
+                    <li>推荐</li>
+                    <li>分类</li>
+                </ul>
+            </div>
+            <ol class="broadcast">
+                <li>
+                    <span>&#xe6b3;</span>
+                    <span>全职高手</span>
+                </li>
+                <li>
+                    <span>&#xe6b2;</span>
+                    <span>活动</span>
+                </li>
+                <li>
+                    <span>&#xe6b1;</span>
+                    <span>广播据</span>
+                </li>
+                <li>
+                    <span>&#xe6af;</span>
+                    <span>精品周更</span>
+                </li>
+            </ol>
         </header>
         <!-- 底部 end-->
         <!-- 中部 start-->
@@ -43,9 +80,33 @@
         <!-- 中部 end-->
         <!-- 底部 start-->
         <footer>
-
+            <dl>
+                <dt></dt>
+                <dd>首页</dd>
+            </dl>
+            <dl>
+                <dt></dt>
+                <dd>我听</dd>
+            </dl>
+            <dl>
+                <dt></dt>
+                <dd></dd>
+            </dl>
+            <dl>
+                <dt></dt>
+                <dd>发现</dd>
+            </dl>
+            <dl>
+                <dt></dt>
+                <dd>我的</dd>
+            </dl>
         </footer>
         <!-- 底部 end-->
     </div>
+    <script src="./swiper/swiper-4.1.6.min.js"></script>
+    <script>
+        var swipe = new Swiper('.swiper-container')
+    </script>
 </body>
+
 </html>
